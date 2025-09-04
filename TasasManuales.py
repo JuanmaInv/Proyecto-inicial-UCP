@@ -156,9 +156,9 @@ def cambioBRL():
         print("Opción no válida.")
 
 
-opcion = ""  # Se inicia la variable como cadena vacía
+opcion = ""  # Se inicia la variable como cadena vacia
 
-while opcion != "6":  # El bucle seguirá mientras la opción no sea 5
+while opcion != "6":  # El bucle seguira mientras la opcion no sea 5
     print("\n--- Conversor de Monedas ---")
     print("1. Convertir desde USD")
     print("2. Convertir desde EUR")
@@ -167,7 +167,7 @@ while opcion != "6":  # El bucle seguirá mientras la opción no sea 5
     print("5. Mostrar historial")
     print("6. Salir")
     
-    opcion = input("Seleccione una opción (1-6): ")  # Aquí se le pide al usuario una opción
+    opcion = input("Seleccione una opcion (1-6): ")  # Aqui se le pide al usuario una opcion
 
     if opcion == "1":
         cambioUSD()
@@ -182,4 +182,4 @@ while opcion != "6":  # El bucle seguirá mientras la opción no sea 5
     elif opcion == "6":
         print("¡Hasta luego!")
     else:
-        print("Opción inválida.")
+        print("Opcion invalida.")
